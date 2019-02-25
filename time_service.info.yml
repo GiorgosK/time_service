@@ -3,3 +3,5 @@ type: module
 description: 'Giving back time as a service'
 core: 8.x
 package: 'Custom'
+dependencies:
+  - drupal:rest
