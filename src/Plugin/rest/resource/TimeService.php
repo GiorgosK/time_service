@@ -35,7 +35,7 @@ class TimeService extends ResourceBase implements CacheableResponseInterface {
         
         $message = [
             'time' => date("Y-m-d H:i:s"),
-            'timezene' => date_default_timezone_get(),
+            'timezone' => date_default_timezone_get(),
         ];
 
         $response = new ResourceResponse($message);
