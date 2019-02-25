@@ -1,0 +1,10 @@
+id: time_service
+plugin_id: time_service
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - json
+    supported_auth:
+      - basic_auth
+      - cookie

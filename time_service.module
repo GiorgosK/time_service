@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains time_service.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function time_service_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the time_service module.
+    case 'help.page.time_service':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Giving back time as a service') . '</p>';
+      return $output;
+
+    default:
+  }
+}

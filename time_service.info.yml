@@ -1,0 +1,5 @@
+name: 'time_service'
+type: module
+description: 'Giving back time as a service'
+core: 8.x
+package: 'Custom'
